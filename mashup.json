@@ -1,0 +1,83 @@
+{
+  "id": "sigf/terraria-team-fortress-2-takeover-b81",
+  "version": "1.0.0",
+  "name": "Team Fortress 2 Takeover",
+  "tagline": "Bring Team Fortress 2 into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "tf2",
+      "role": "guest",
+      "label": "Team Fortress 2"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-team-fortress-2-takeover-b81.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "5e4d3ce365330adc6a552cba473b411451039e612ede34a304ffc8afd28dcabd"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-team-fortress-2-takeover-b81/releases/download/v1.0.0/terraria-team-fortress-2-takeover-b81.zip",
+          "sha256": "0ce2a4ea31192f20a4d7c934c15798db6cc9c778cd90dd6e40918e4bf57ad37e",
+          "size": 99561
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-team-fortress-2-takeover-b81.zip",
+      "url": "https://github.com/SIGFAI/terraria-team-fortress-2-takeover-b81/releases/download/v1.0.0/terraria-team-fortress-2-takeover-b81.zip",
+      "sha256": "0ce2a4ea31192f20a4d7c934c15798db6cc9c778cd90dd6e40918e4bf57ad37e",
+      "size": 99561
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-team-fortress-2-takeover-b81",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-189e5db7.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T13:34:11.204Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable \"SIGF Mix\" in tModLoader's Workshop > Manage Mods menu and start a world. Monsters become BLU mercs and the Tank boss rolls in."
+  ]
+}
