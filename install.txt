@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, then enable "SIGF Mix" in tModLoader's Workshop > Manage Mods menu and start a world. Monsters become BLU mercs and the Tank boss rolls in.

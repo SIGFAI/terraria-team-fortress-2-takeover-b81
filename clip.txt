@@ -1,0 +1,6 @@
+Moments the clip must show:
+[x] 1. Title "TEAM FORTRESS 2" and BLU mercs (Soldier, Scout, Heavy) appear around the player within 10 s.
+[x] 2. The player's Rocket Launcher fires a smoky rocket that explodes on mercs (blast, knockback, rocket jump).
+[x] 3. The Flamethrower sets mercs on fire; "CRITICAL HIT!" flashes on lucky hits.
+[x] 4. Pyro flames, Heavy minigun and the Engineer's sentry shoot back; vanilla slimes turn into mercs.
+[x] 5. The Tank boss rolls in with an alarm, shells the player, explodes and drops Mann Co. crates.
